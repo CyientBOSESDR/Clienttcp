@@ -1,0 +1,10 @@
+892a7892c294bd416ee5a279899fa4ce  main.cpp
+6a8294da41ed8f7df3435f56a692d75d  Clienttcp_base.h
+9f9d9d3ca4e86b9dbc19f8c0cba9d900  Clienttcp_base.cpp
+8bfcd22353c3a57fee561ad86ee2a56b  reconf
+bab654b1b7183707c4759f4b0a13894f  Clienttcp.h
+a3279bf1e81e4ba17bacfb5cdb6bde01  Clienttcp.cpp
+ef10cfe9569badc64d0418b368346fdf  configure.ac
+b72969b5f7176842e9028e76583949fe  Makefile.am
+a889f68cfdeae6a8cc71ddc868c55a94  Makefile.am.ide
+2b2faa5cfc83438427491f4be5d6ee59  build.sh
