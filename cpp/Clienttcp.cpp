@@ -14,7 +14,7 @@
 #include<arpa/inet.h>
 #include<string.h>
 #include <iostream>
-#define PORT 8080
+#define PORT 7104
 
 PREPARE_LOGGING(Clienttcp_i)
 
@@ -57,7 +57,7 @@ int Clienttcp_i::Clienttcp(void)
 	serv_addr.sin_port   = htons(PORT);
 
 	//convert ipv4 and ipv6 address from text to binary form
-	if(inet_pton(AF_INET,"172.24.85.108",&serv_addr.sin_addr)<=0)
+	if(inet_pton(AF_INET,"172.24.85.121",&serv_addr.sin_addr)<=0)
 	{
 		printf("\n INvalid address\n");
 		return -1;
